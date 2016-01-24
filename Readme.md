@@ -1,7 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Satrik Satrik](https://htmlacademy.ru/profile/id124377).
-* Наставник: [Денис Байдаров](https://htmlacademy.ru/profile/4er).
+* Наставник: [Денис Байдаров.](https://htmlacademy.ru/profile/4er).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
