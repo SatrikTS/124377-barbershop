@@ -36,40 +36,38 @@
       </div>
     </header>
 	
-	<main class="container">
-		<div class="main-heading">
-			<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-		</div>
-		<div class="breadcrumbs">
-			<ul>
-				<li>
-					<a href="#">ГЛАВНАЯ</a>
-				</li>
-				<li>
-					<a href="#">МАГАЗИН</a>
-				</li>
-				<li>
-					<a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
-				</li>
-			</ul>
-		</div>
+	<main class="container shop">
+		<h1>Средства для ухода</h1>
+
+		<ul class="breadcrumbs">
+			<li>
+				<a href="#">Главная</a>
+			</li>
+			<li>
+				<a href="#">Магазин</a>
+			</li>
+			<li class="active-page">
+				Cредства для ухода
+			</li>
+		</ul>
+		
 		
 		<div class="form-shop">
 			<form class="form-choice" action="https://echo.htmlacademy.ru" method="post">
 			
-					<h2>ПРОИЗВОДИТЕЛИ:</h2>
-					<label>	<input type="checkbox" checked name="baxter">BAXTER OF CALIFORNIA</label> <br>
-					<label>	<input type="checkbox" name="mr naty">MR NATY</label> <br>
-					<label>	<input type="checkbox" checked name="suavecito">SUAVECITO</label> <br>
-					<label>	<input type="checkbox" name="malin">MALIN+GOETZ</label> <br>
-					<label>	<input type="checkbox" name="murrays">MURRAY'S</label> <br>
-					<label>	<input type="checkbox" checked name="american crew">AMERICAN CREW</label> <br>
+					<h2>Производители:</h2>
+					<label>	<input type="checkbox" checked name="baxter">Baxter of California</label> 
+					<label>	<input type="checkbox" name="mr naty">Mr naty</label>
+					<label>	<input type="checkbox" checked name="suavecito">Suavecito</label>
+					<label>	<input type="checkbox" name="malin">Malin+goetz</label>
+					<label>	<input type="checkbox" name="murrays">Murray's</label>
+					<label>	<input type="checkbox" checked name="american crew">American crew</label>
 					
 					
 					<h2>ГРУППЫ ТОВАРОВ:</h2>
-						<label><input type="radio" checked value="БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ" name="category"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ<br></label>
-						<label><input type="radio" value="СРЕДСТВА ДЛЯ УХОДА" name="category">СРЕДСТВА ДЛЯ УХОДА<br></label>
-						<label><input type="radio" value="АКСЕССУАРЫ" name="category">АКСЕССУАРЫ<br></label>
+						<label><input type="radio" checked value="razor" name="category"> Бритвенные принадлежности<br></label>
+						<label><input type="radio" value="the care" name="category">Средства для ухода<br></label>
+						<label><input type="radio" value="accessory" name="category">Аксессуары<br></label>
 					
 					<div class="btn-show-product">
 						<input type="submit" value="ПОКАЗАТЬ">
@@ -79,55 +77,73 @@
 		
 		<div class="product-list">
 			<article class="product">
-				<img src="http://placehold.it/150x100" alt="Товар">
-				<p class="whatis">Набор для путешествий</p>
-				<p class="brand">"BAXTER OF CALIFORNIA"</p>
-				<p class="shop-price">2 900 РУБ.</p>
-				<a class="btn-buy" href="#">КУПИТЬ</a>
+				<a href="#"><img src="http://placehold.it/150x100" alt="Товар"></a>
+				<a href="#">
+					<p class="brand">Набор для путешествий"Baxter of California"</p>
+				</a>
+				<div class="pay-section">
+					<span class="shop-price">2 900 РУБ.</span>
+					<a class="btn-buy" href="#">Купить</a>
+				</div>	
 			</article>
 			<article class="product">
-				<img src="http://placehold.it/150x100" alt="Товар">
-				<p class="whatis">Увлажняющий кондиционер</p>
-				<p class="brand">"BAXTER OF CALIFORNIA"</p>
-				<p class="shop-price">750 РУБ.</p>
-				<a class="btn-buy" href="#">КУПИТЬ</a>
+				<a href="#"><img src="http://placehold.it/150x100" alt="Товар"></a>
+				<a href="#">
+					<p class="brand">Увлажняющий кондиционер "Baxter of California"</p>
+				</a>
+				<div class="pay-section">
+					<span class="shop-price">750 РУБ.</span>
+					<a class="btn-buy" href="#">Купить</a>
+				</div>
 			</article>
 			<article class="product">
-				<img src="http://placehold.it/150x100"  alt="Товар">
-				<p class="whatis">Гель для волос</p>
-				<p class="brand">"SUEVICITO"</p>
-				<p class="shop-price">290 РУБ.</p>
-				<a class="btn-buy" href="#">КУПИТЬ</a>
+				<a href="#"><img src="http://placehold.it/150x100"  alt="Товар"></a>
+				<a href="#">
+					<p class="brand">Гель для волос "SUEVICITO"</p>
+				</a>
+				<div class="pay-section">
+					<span class="shop-price">290 РУБ.</span>
+					<a class="btn-buy" href="#">Купить</a>
+				</div>
 			</article>
 			<article class="product">
-				<img src="http://placehold.it/150x100" alt="Товар">
-				<p class="whatis">Глина для укладки волос</p>
-				<p class="brand">"AMERICAN CREW"</p>
-				<p class="shop-price">500 РУБ.</p>
-				<a class="btn-buy" href="#">КУПИТЬ</a>
+				<a href="#"><img src="http://placehold.it/150x100" alt="Товар"></a>
+				<a href="#">
+					<p class="brand">Глина для укладки волос "AMERICAN CREW"</p>
+				</a>
+				<div class="pay-section">
+					<span class="shop-price">500 РУБ.</span>
+					<a class="btn-buy" href="#">Купить</a>
+				</div>
 			</article>
 			<article class="product">
-				<img src="http://placehold.it/150x100" alt="Товар">
-				<p class="whatis">Гель для волос</p>
-				<p class="brand">"AMERICAN CREW"</p>
-				<p class="shop-price">300 РУБ.</p>
-				<a class="btn-buy" href="#">КУПИТЬ</a>
+				<a href="#"><img src="http://placehold.it/150x100" alt="Товар"></a>
+				<a href="#">
+					<p class="brand">Гель для волос "AMERICAN CREW"</p>
+				</a>
+				<div class="pay-section">
+					<span class="shop-price">300 РУБ.</span>
+					<a class="btn-buy" href="#">Купить</a>
+				</div>
 			</article>
 			<article class="product">
-				<img src="http://placehold.it/150x100" alt="Товар">
-				<p class="whatis">Набор для бритья</p>
-				<p class="brand">"BAXTER OF CALIFORNIA"</p>
-				<p class="shop-price">3 900 РУБ.</p>
-				<a class="btn-buy" href="#">КУПИТЬ</a>
+				<a href="#"><img src="http://placehold.it/150x100" alt="Товар"></a>
+				<a href="#">
+					<p class="brand">Набор для бритья "BAXTER OF CALIFORNIA"</p>
+				</a>
+				<div class="pay-section">
+					<span class="shop-price">3 900 РУБ.</span>
+					<a class="btn-buy" href="#">Купить</a>
+				</div>
 			</article>
-		</div>
-		<div class="nav-num">
-			<a class="btn-num" href="#">1</a>
-			<a class="btn-num" href="#">2</a>
-			<a class="btn-num" href="#">3</a>
-			<a class="btn-num" href="#">4</a>
-		</div>
 		
+			<div class="paginator">
+				<a class="page-num" href="#">1</a>
+				<div class="page-num paginator-active-page" href="#">2</div>
+				<a class="page-num" href="#">3</a>
+				<a class="page-num" href="#">4</a>
+			</div>
+		</div>
     </main>
 	
 	
