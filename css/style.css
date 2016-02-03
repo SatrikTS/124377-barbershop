@@ -3,16 +3,324 @@ body{
 	line-height: 24px;
 	font-weight:normal;
 	font-family: PTSans NarrowBold;
-
 }
 
 h1{
 	font-size: 30px;
-	
 }
 
 h2{
 	font-size: 30px;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container{
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	background: #2ecc71;
+}
+
+.content-block{
+	background: #f5ece4;
+	
+}
+
+.main-navigation{
+	float: left;
+	width: 780px;
+	min-height:70px;
+	background: lightblue;
+}
+
+.main-navigation ul li{
+	float: left;
+	margin-right: 40px;
+	width: 70px;
+}
+
+.main-navigation ul li:last-child{
+	margin-right: 0px;
+}
+.page-logo{
+	float:left;
+	width: 111px;
+	height: 24px;
+	background: red;
+}
+
+.main-navigation-page{
+	float: left;
+	width: 669px;
+	min-height:70px;
+	background: lightblue;
+}
+	
+.user-block{
+	float:right;
+	width: 140px;
+	min-height:70px;
+	margin-right:0px;
+	background: lightyellow;
+}
+
+.main-header{
+	margin-bottom: 60px;
+	background: black;
+}
+
+.index-logo{
+	width: 368px;
+	height: 204px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.breadcrumbs{
+	margin-bottom: 59px;
+	background: grey;
+}
+
+.breadcrumbs li{
+	float: left;
+	width: 160px;
+}
+
+
+.form-shop{
+	float: left;
+	width: 180px;
+	background: lightgrey;
+}
+
+.form-checkbox{
+	margin-bottom: 55px;
+}
+
+
+
+input[type="submit"]{
+	width: 110px;
+	height: 43px;
+	background: black;
+	color: white;
+}
+
+legend{
+	font-size: 24px;
+}
+label{
+	display:block;
+	margin-top: 17px;
+}
+.product-list{
+	float: right;
+	width: 700px;
+	background: lightblue;
+}
+
+.product-list-box{
+	margin-bottom: 30px;
+}
+
+.product{
+	float: left;
+	width: 220px;
+	height: 285;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: lightgrey;
+}
+
+.product:nth-child(3n){
+	margin-right:0;
+	
+}
+
+.product-name-container{
+	width: 187px;
+	padding: 16px;
 
 }
+
+.pay-section{
+	width: 187px;
+	height: 43px;
+	padding: 16px;
+	padding-top: 0px;
+}
+
+
+.shop-price{
+	float: left;
+	padding: 10px;
+	width: 80px;
+	background: grey;
+}
+
+.btn-buy{
+	float: left;
+	padding: 10px;
+	width: 60px;
+	background: black;
+	color: white;
+
+}
+
+.page-num{
+	float: left;
+	margin-right: 7px;
+	width: 44px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background: black;
+	color: white;
+	
+}
+
+.paginator{
+	background: green;
+}
+
+.paginator-active-page{
+	background: #ccc;
+	color: black;
+}
+
+.features {
+  margin-bottom: 80px;
+  background: #e67e22;
+}
+
+.features-item{
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	background: #e74c3c;
+}
+
+.features-item:last-child{
+	margin-right: 0px;
+}
+
+.index-content{
+	padding: 50px 80px;
+	margin-bottom: 35px;
+	background: #e67e22;
+	
+}
+
+.index-content-left{
+	float: left;
+	width: 380px;
+	background: #e74c3c;
+}
+
+.index-content-right{
+	float: right;
+	width: 300px;
+	background: #e74c3c;
+}
+
+.gallery-page{
+	float: left;
+	width: 460px;
+	background: lightgreen;
+}
+
+.gallery-picture a{
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+}
+
+.gallery-picture a:last-child{
+	margin-right: 0px;
+	
+}
+
+
+.product-description{
+	float: right;
+	width: 480px;
+	background: lightgrey;
+}
+
+.product-description-container{
+	padding-left: 93px;
+}
+
+.product-preview{
+	padding-top: 25px;
+}
+
+.pre-text{
+	float: left;
+	background: #e67e22;
+}
+
+.marking{
+	float: right;
+	margin-right: 0px;
+	background: #e67e22;
+}
+
+.description-section{
+	padding-bottom: 29px;
+	background: #e67e22;
+}
+
+.item-pay-section{
+	padding-left: 0px;
+	padding-bottom: 44px;
+}
+
+.product-kit{
+	padding-left: 15px;
+	padding-top: 2px;
+	background: #e67e22;
+}
+
+
+.main-footer{
+	background-color: grey;
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background: #e74c3c;
+}
+
+.footer-page{
+	margin-top: 50px;
+
+}
+
+.footer-contacts{
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+	background: #e67e22;
+}
+
+.footer-social{
+	float: left;
+	width: 180px;
+	background: #e67e22;
+}
+
+.footer-copyright{
+	float:right;
+	width: 180px;
+	background: #e67e22;
+}
+
+
 

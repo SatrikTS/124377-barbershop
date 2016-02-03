@@ -7,11 +7,11 @@
   </head>
   <body>
     <header class="main-header">
-		<div class="container">
+		<div class="container clearfix">
 			<div class="page-logo">
 				<img src="img/Logo.svg" alt="logo second page">
 			</div>
-			<nav class="main-navigation">
+			<nav class="main-navigation main-navigation-page">
 			    <ul>
 					<li>
 					  <a href="index.html">Главная</a>
@@ -38,10 +38,10 @@
 			</div>
 		</div>
     </header>
-	<main class="container content-block">
+	<main class="container content-block clearfix">
 		<h1>Набор для путешествий "Baxter of California"</h1>
 		
-		<ul class="breadcrumbs">
+		<ul class="breadcrumbs clearfix">
 			<li>
 				<a href="index.html">Главная</a>
 			</li>
@@ -54,7 +54,7 @@
 			<li>Набор для путешествий "Baxter of California"</li>
 		</ul>
 		
-		<div class="gallery">
+		<div class="gallery-page">
 			<a href="#" class="gallery-main-picture"><img src="img/baxtermax.jpg" alt="товар"></a>
 			<div class="gallery-picture">
 				<a href="#"><img src="img/baxtersh1.jpg" alt="товар"></a>
@@ -63,35 +63,39 @@
 			</div>
 		</div>
 		<div class="product-description">
-			<span class="pre-text">Есть в наличии</span>
-			<span class="marking">Артикул: Dexter*AE</span>
-			<p class="description-section">
-				Trevel kit - необходимый аксессуар во время любого<br>
-				путешествия. в аккуратной кожаной сумке находится все, что<br>
-				нужно для бритья и ухода за кожей во время рабочей поездки<br>
-				или отдыха: средство для умывания, увлажняющий крем, крем<br>
-				для бритья, крем после бритья, шампунь, набор также может<br>
-				стать отличным подарком.
-			</p>
-			<div class="pay-section">
-				<span class="shop-price">2 900 Руб.</span>
-				<a class="btn-buy" href="#">Купить</a>
-			</div>	
-			<div class="product-set">
-				<h2>В набор входят:</h2>
-				<ul class="product-kit">
-					<li>Средство для умывания (50 мл)</li>
-					<li>Увлажняющий крем (50 мл)</li>
-					<li>Крем для бритья (50 мл)</li>
-					<li>Крем после бритья, шампунь (50 мл)</li>
-					<li>Удобная кожаная косметичка</li>
-				</ul>
+			<div class="product-description-container">
+				<div class="product-preview clearfix">
+					<span class="pre-text">Есть в наличии</span>
+					<span class="marking">Артикул: Dexter*AE</span>
+				</div>
+				<p class="description-section">
+					Trevel kit - необходимый аксессуар во время любого
+					путешествия. в аккуратной кожаной сумке находится все, что
+					нужно для бритья и ухода за кожей во время рабочей поездки
+					или отдыха: средство для умывания, увлажняющий крем,
+					крем для бритья, крем после бритья, шампунь, набор также может
+					стать отличным подарком.
+				</p>
+				<div class="pay-section item-pay-section">
+					<span class="shop-price">2 900 Руб.</span>
+					<a class="btn-buy" href="#">Купить</a>
+				</div>	
+				<div class="product-set">
+					<h2>В набор входят:</h2>
+					<ul class="product-kit">
+						<li>Средство для умывания (50 мл)</li>
+						<li>Увлажняющий крем (50 мл)</li>
+						<li>Крем для бритья (50 мл)</li>
+						<li>Крем после бритья, шампунь (50 мл)</li>
+						<li>Удобная кожаная косметичка</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</main>
 		
-	<footer class="main-footer">
-      <div class="container">
+	<footer class="main-footer footer-page">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -110,5 +114,5 @@
         </section>
       </div>
     </footer>
-</body>
+ </body>
 </html>
