@@ -3,6 +3,7 @@ body{
 	line-height: 24px;
 	font-weight:normal;
 	font-family: PTSans NarrowBold;
+	margin: 0;
 }
 
 h1{
@@ -29,7 +30,8 @@ h2{
 
 .content-block{
 	background: #f5ece4;
-	
+	padding-bottom: 60px;
+	padding-top: 60px;
 }
 
 .main-navigation{
@@ -75,6 +77,10 @@ h2{
 	background: black;
 }
 
+.main-header-page{
+	margin-bottom: 0px;
+}
+
 .index-logo{
 	width: 368px;
 	height: 204px;
@@ -116,6 +122,7 @@ input[type="submit"]{
 legend{
 	font-size: 24px;
 }
+
 label{
 	display:block;
 	margin-top: 17px;
@@ -183,7 +190,6 @@ label{
 	text-align: center;
 	background: black;
 	color: white;
-	
 }
 
 .paginator{
@@ -299,7 +305,7 @@ label{
 }
 
 .footer-page{
-	margin-top: 50px;
+	margin-top: 0px;
 
 }
 
@@ -321,6 +327,4 @@ label{
 	width: 180px;
 	background: #e67e22;
 }
-
-
 
